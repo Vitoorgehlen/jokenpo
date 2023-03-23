@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Signika Negative", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1rem;
+
+  width: 50%;
+  margin-top: 2rem;
+  background-color: #3e4651;
+  border-radius: 0.2rem;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 100svh;
+
+  background-color: #1b1a1f;
+  color: #ffffff;
+}
+
+.conteudo {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10rem;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+#person {
+  width: auto;
+  height: 10rem;
+}
+
+#vs {
+  width: 5rem;
+}
+#cpu {
+  width: auto;
+  height: 10rem;
+}
+
+#optionsPlayer {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+#optionsPlayer .ativado {
+  cursor: default;
+  border-radius: 20rem;
+  background-color: #25aef3;
+}
+
+#optionsCPU {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+#optionsCPU .ativado {
+  border-radius: 20rem;
+  background-color: #203d51;
+}
+
+footer {
+  margin-bottom: 1rem;
+}
