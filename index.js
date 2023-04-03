@@ -1,3 +1,7 @@
+/* teste som
+testando som
+12
+*/
 const rockPlayer = document.getElementById("rock-player");
 const paperPlayer = document.getElementById("paper-player");
 const scissorsPlayer = document.getElementById("scissors-player");
