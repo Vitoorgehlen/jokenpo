@@ -13,9 +13,8 @@ header {
   justify-content: space-evenly;
   padding: 1rem;
 
-  width: 50%;
-  margin-top: 2rem;
-  background-color: #3e4651;
+  width: 100%;
+  background-color: #000000;
   border-radius: 0.2rem;
 }
 
@@ -24,6 +23,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  overflow: hidden;
 
   height: 100svh;
 
@@ -31,62 +31,42 @@ body {
   color: #ffffff;
 }
 
-.conteudo {
+.pontos {
   display: flex;
   align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 10rem;
-  width: 100%;
+  justify-content: center;
+  gap: 15rem;
 }
 
-.container {
+#container {
   display: flex;
   align-items: center;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 2rem;
-}
+  justify-items: center;
+  gap: 3rem;
 
-#person {
-  width: auto;
-  height: 10rem;
-}
-
-#vs {
-  width: 5rem;
-}
-#cpu {
-  width: auto;
-  height: 10rem;
+  padding-top: 6rem;
 }
 
 #optionsPlayer {
-  cursor: pointer;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 1rem;
+  padding-left: 2rem;
 }
 
 #optionsPlayer .ativado {
   cursor: default;
   border-radius: 20rem;
-  background-color: #25aef3;
+  background-color: #ff2895;
 }
 
-#optionsCPU {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 1rem;
+#vs {
+  width: 5rem;
 }
 
 #optionsCPU .ativado {
   border-radius: 20rem;
-  background-color: #203d51;
+  background-color: #7b0097;
 }
 
 footer {
+  padding-top: 6rem;
   margin-bottom: 1rem;
 }

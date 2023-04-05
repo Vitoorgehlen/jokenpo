@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Gajraj+One&family=Lobster&family=Signika+Negative:wght@400;700&display=swap"
       rel="stylesheet"
     />
+
     <title>Lagarto Spock</title>
   </head>
   <body>
@@ -22,80 +23,65 @@
       </p>
     </header>
     <main>
-      <div class="conteudo">
-        <div class="container">
-          <h1>Pontos: <span id="score-player">0</span></h1>
-          <img id="person" src="img/player.png" alt="" />
-          <div id="optionsPlayer">
-            <img
-              id="rock-player"
-              src="img/rock.png"
-              alt=""
-              style="width: 5rem"
-            />
-            <img
-              id="paper-player"
-              src="img/paper.png"
-              alt=""
-              style="width: 5rem"
-            />
-            <img
-              id="scissors-player"
-              src="img/scissors.png"
-              alt=""
-              style="width: 5rem"
-            />
-            <img
-              id="lizard-player"
-              src="img/lizard.png"
-              alt=""
-              style="width: 5rem"
-            />
-            <img
-              id="spock-player"
-              src="img/spock.png"
-              alt=""
-              style="width: 5rem"
-            />
-          </div>
+      <div class="pontos">
+        <h1>Você: <span id="score-player">0</span></h1>
+        <h1>CPU: <span id="score-cpu">0</span></h1>
+      </div>
+
+      <div id="container">
+        <div id="optionsPlayer">
+          <img id="rock-player" src="img/rock.png" alt="" style="width: 3rem" />
+          <img
+            id="paper-player"
+            src="img/paper.png"
+            alt=""
+            style="width: 3rem"
+          />
+          <img
+            id="scissors-player"
+            src="img/scissors.png"
+            alt=""
+            style="width: 3rem"
+          />
+          <img
+            id="lizard-player"
+            src="img/lizard.png"
+            alt=""
+            style="width: 3rem"
+          />
+          <img
+            id="spock-player"
+            src="img/spock.png"
+            alt=""
+            style="width: 3rem"
+          />
         </div>
-        <img id="vs" src="img/vs.png" alt="" style="width: 5rem" />
-        <div class="container">
-          <h1>Pontos: <span id="score-cpu">0</span></h1>
-          <img id="cpu" src="img/cpu.png" alt="" />
-          <div id="optionsCPU">
-            <img id="rock-cpu" src="img/rock.png" alt="" style="width: 5rem" />
-            <img
-              id="paper-cpu"
-              src="img/paper.png"
-              alt=""
-              style="width: 5rem"
-            />
-            <img
-              id="scissors-cpu"
-              src="img/scissors.png"
-              alt=""
-              style="width: 5rem"
-            />
-            <img
-              id="lizard-cpu"
-              src="img/lizard.png"
-              alt=""
-              style="width: 5rem"
-            />
-            <img
-              id="spock-cpu"
-              src="img/spock.png"
-              alt=""
-              style="width: 5rem"
-            />
-          </div>
+        <i class="fa-solid fa-user-large fa-5x" style="color: #ff2895"></i>
+        <img id="vs" src="img/vs.png" alt="" style="width: 3rem" />
+        <i class="fa-solid fa-robot fa-5x" style="color: #7b0097"></i>
+
+        <div id="optionsCPU">
+          <img id="rock-cpu" src="img/rock.png" alt="" style="width: 3rem" />
+          <img id="paper-cpu" src="img/paper.png" alt="" style="width: 3rem" />
+          <img
+            id="scissors-cpu"
+            src="img/scissors.png"
+            alt=""
+            style="width: 3rem"
+          />
+          <img
+            id="lizard-cpu"
+            src="img/lizard.png"
+            alt=""
+            style="width: 3rem"
+          />
+          <img id="spock-cpu" src="img/spock.png" alt="" style="width: 3rem" />
         </div>
       </div>
     </main>
 
     <footer>
-      <p>Feito por Vitor Gehlen 🥰</p>
+      <p>Feito por Vitor Gehlen</p>
     </footer>
 
     <script src="index.js"></script>
